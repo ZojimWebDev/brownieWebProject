@@ -1,0 +1,43 @@
+
+p{ 
+    color: rgb(171, 100, 41);
+    font-size: 16px;
+}
+
+h1{
+    color: brown;
+}
+
+li{
+    color: rgb(3, 48, 33);
+}
+.calories{ /*This is a class selector*/
+    color: rgb(172, 27, 27);}
+
+
+.bedim{ /*this is an id selector*/
+     color: blueviolet;}
+#boo{ color: chartreuse;}
+#bisous{ color: fuchsia;}
+#lalo{color: goldenrod;}
+
+
+a[target] {font-size: xx-large;}
+a[/*this is an attribute selector*/target=_blank]{ border: 5px double ;}
+
+Li{ background-color: rgb(200, 162, 175); width:900px;}
+#bekeke{background-color:  darkred; width: 210px;}
+#welele{background-color: darkslategray;
+    width: 280px; /* Set the width to 200 pixels */;}
+
+    aside li{
+        border: 4px solid blueviolet; width: 300px;
+    }
+
+    aside > h3{  
+
+        font-size: large;
+    }
+    main div ul li span{ background-color: darkorange;}
+    span b { background-color: rgb(47, 107, 62);}
+    *{ /*this is an universal selector*/background-color: wheat}
